@@ -16,6 +16,14 @@ const PublicationsPages = () => {
     const [arrowDownload3, setArrowDownload3] = useState(false);
     const [arrowDownload4, setArrowDownload4] = useState(false);
 
+    const [informationClick1, setInformationClick1] = useState(false);
+    const [informationClick2, setInformationClick2] = useState(false);
+    const [informationClick3, setInformationClick3] = useState(false);
+    const [informationClick4, setInformationClick4] = useState(false);
+    const [informationClick5, setInformationClick5] = useState(false);
+    const [informationClick6, setInformationClick6] = useState(false);
+    const [informationClick7, setInformationClick7] = useState(false);
+
     return (
       <>
         <section className="" style={{ backgroundColor: "rgba(196, 148, 47, 0.3)"}}>
@@ -221,8 +229,38 @@ const PublicationsPages = () => {
             <div className="flex justify-between mt-24 text-black">
                 <div className="flex flex-col w-1/2 p-8">
                     <hr style={{border: "1px solid #212121", width: "100%"}}/>
-                    <div className="my-5 flex justify-between">
+                    <div className="my-8 flex justify-between">
                         <p className="text-lg ps-2" style={{fontWeight: "550"}}>Electrical & Electronic</p>
+                        <IoMdAdd className="my-auto font-bold text-2xl"/>
+                    </div>
+                    <hr style={{border: "1px solid #212121", width: "100%"}}/>
+                    <div className="my-8 flex justify-between">
+                        <p className="text-lg ps-2" style={{fontWeight: "550"}}>Medical Devices</p>
+                        <IoMdAdd className="my-auto font-bold text-2xl"/>
+                    </div>
+                    <hr style={{border: "1px solid #212121", width: "100%"}}/>
+                    <div className="my-8 flex justify-between">
+                        <p className="text-lg ps-2" style={{fontWeight: "550"}}>Food & Beverages</p>
+                        <IoMdAdd className="my-auto font-bold text-2xl"/>
+                    </div>
+                    <hr style={{border: "1px solid #212121", width: "100%"}}/>
+                    <div className="my-8 flex justify-between">
+                        <p className="text-lg ps-2" style={{fontWeight: "550"}}>Lightings</p>
+                        <IoMdAdd className="my-auto font-bold text-2xl"/>
+                    </div>
+                    <hr style={{border: "1px solid #212121", width: "100%"}}/>
+                    <div className="my-8 flex justify-between">
+                        <p className="text-lg ps-2" style={{fontWeight: "550"}}>Agriculture</p>
+                        <IoMdAdd className="my-auto font-bold text-2xl"/>
+                    </div>
+                    <hr style={{border: "1px solid #212121", width: "100%"}}/>
+                    <div className="my-8 flex justify-between">
+                        <p className="text-lg ps-2" style={{fontWeight: "550"}}>Information Technology</p>
+                        <IoMdAdd className="my-auto font-bold text-2xl"/>
+                    </div>
+                    <hr style={{border: "1px solid #212121", width: "100%"}}/>
+                    <div className="my-8 flex justify-between">
+                        <p className="text-lg ps-2" style={{fontWeight: "550"}}>Other Products</p>
                         <IoMdAdd className="my-auto font-bold text-2xl"/>
                     </div>
                     <hr style={{border: "1px solid #212121", width: "100%"}}/>
