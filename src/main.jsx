@@ -7,11 +7,11 @@ import PublicationsPages from './Pages/PublicationPages.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/MGI/',
+    path: '/MGI-Example/',
     element: <App />,
     children: [
       {
-        path: '/MGI/Publications',
+        path: '/MGI-Example/Publications',
         element: <PublicationsPages/>
       }
     ],

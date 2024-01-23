@@ -1,0 +1,38 @@
+@keyframes nonedropDownProfile{
+    from{
+        height: auto;
+        display: block;
+        opacity: 0.8;
+        transform: translate(0, 0px);
+    }
+    to{
+        height: 0px;
+        display: none; 
+        opacity: 0.0;
+        transform: translate(0, -40px);
+    }
+}
+
+@keyframes dropDownProfile{
+    from{
+        height: 0px;
+        display: none; 
+        opacity: 1;
+        transform: translate(0, -40px);
+    }
+    to{
+        height: auto;
+        display: block;
+        opacity: 1;
+        transform: translate(0, 0px);
+    }
+}
+  
+  .fade-in-up {
+    animation: dropDownProfile 0.25s forwards;
+  }
+
+  .fade-in-down {
+    animation: nonedropDownProfile 0.25s forwards;
+  }
+  
